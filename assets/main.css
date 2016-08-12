@@ -1,0 +1,92 @@
+body {
+ margin-top: 0px;
+ margin-right: 0px;
+ margin-bottom: 0px;
+ margin-left: 0px;
+}
+
+.banner {
+  background: URL("http://pics.ebaystatic.com/aw/pics/vit/flag/hdr2_flag.gif");
+  background-size: cover;
+  height: 175px;
+}
+
+.banner img {
+  height: 175px;
+  width: 175px;
+  margin-left: 50px;
+  overflow: auto;
+}
+
+.banner ul {
+  left: 50%;
+  list-style-type: none;
+  font-family: times;
+  font-size: 40px;
+  padding: 0px;
+  text-align: center;
+  margin-top: -163px;
+}
+
+.banner ul li {
+  text-shadow:
+    -1px -1px 0 #fff,
+     1px -1px 0 #fff,
+    -1px  1px 0 #fff,
+     1px  1px 0 #fff;
+}
+
+.jumbotron {
+  background: URL("http://archive.defense.gov/DODCMSShare/NewsStoryPhoto/2009-09/scr_207026.jpg");
+  background-size: cover;
+  height: 750px;
+  overflow: auto;
+}
+
+table {
+  width: 100%;
+  height: 500px;
+  margin-top: 100px;
+  font-family: times;
+}
+
+th {
+  font-size: 40px;
+  border-bottom: 5px solid black;
+}
+
+td {
+  width: 25%;
+  font-size: 20px;
+  color: navy;
+  font-weight: bold;
+}
+
+td img {
+  border: 1px solid white;
+  border-radius: 10%;
+  margin-top: 25px;
+  margin-left: 10px;
+}
+
+footer {
+  height: 50px;
+  background-size: cover;
+  clear: both;
+  position:absolute; left:0px; bottom:0px; 
+}
+
+footer ul{
+  width: 100%;
+  display: table;
+  table-layout: fixed;
+  background-color: black;
+}
+
+footer ul li {
+  font-size: 20px;
+  display: table-cell;
+  width: auto;
+  text-align: center;
+  color: white;
+}
