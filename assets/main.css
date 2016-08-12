@@ -9,6 +9,7 @@ body {
   background: URL("http://pics.ebaystatic.com/aw/pics/vit/flag/hdr2_flag.gif");
   background-size: cover;
   height: 175px;
+  position: static;
 }
 
 .banner img {
@@ -19,13 +20,13 @@ body {
 }
 
 .banner ul {
-  left: 50%;
   list-style-type: none;
   font-family: times;
   font-size: 40px;
   padding: 0px;
   text-align: center;
   margin-top: -163px;
+  align-items: center;
 }
 
 .banner ul li {
@@ -41,6 +42,7 @@ body {
   background-size: cover;
   height: 750px;
   overflow: auto;
+  position: relative;
 }
 
 table {
@@ -53,6 +55,7 @@ table {
 th {
   font-size: 40px;
   border-bottom: 5px solid black;
+  text-align: center;
 }
 
 td {
@@ -71,6 +74,7 @@ td img {
 
 footer {
   height: 50px;
+  background: black;
   background-size: cover;
   clear: both;
   position:absolute; left:0px; bottom:0px; 
@@ -81,6 +85,7 @@ footer ul{
   display: table;
   table-layout: fixed;
   background-color: black;
+  margin-top: 12px;
 }
 
 footer ul li {
